@@ -6,7 +6,27 @@ const AudioEqualizer = () => {
       {/* Canvas */}
       <div className="border-2 border-black rounded-md w-[800px] h-[500px]">
         {/* Inner Canvas */}
-        <div className="bg-black h-full w-full"></div>
+        <div className="bg-black h-full w-full flex">
+          {/* Left bar */}
+          <div className="border-2 border-white w-[10%] h-full"></div>
+
+          {/* Top Container */}
+          <div className="border-2 border-white w-[60%] h-full">
+            {/* Top Bar */}
+            <div className="border-2 border-white w-[full] h-[10%]"></div>
+            {/* Visualizer */}
+            <div className="border-2 border-white w-[full] h-[40%]"></div>
+            {/* Timeline */}
+            <div className="border-2 border-white w-[full] h-[10%]"></div>
+            {/* Playback */}
+            <div className="border-2 border-white w-[full] h-[25%]"></div>
+            {/* Controls */}
+            <div className="border-2 border-white w-[full]"></div>
+          </div>
+
+          {/* Right bar */}
+          <div className="border-2 border-white w-[30%] h-full"></div>
+        </div>
       </div>
     </div>
   );
