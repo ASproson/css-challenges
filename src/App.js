@@ -1,10 +1,10 @@
-import './App.css';
+import "./App.css";
+import AudioEqualizer from "./components/AudioEqualizer";
 
 function App() {
   return (
     <div>
-      <h1 className="text-3xl">Hello world</h1>
-      
+      <AudioEqualizer />
     </div>
   );
 }
